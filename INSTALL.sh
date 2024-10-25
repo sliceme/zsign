@@ -49,7 +49,7 @@ make
 
 
         # Dependencies
-        sudo apt-get install wget zip unzip build-essential checkinstall zlib1g-dev libssl-dev -y &&
+        apt-get install wget zip unzip build-essential checkinstall zlib1g-dev libssl-dev -y &&
 
             # Installing Cmake latest
             wget -qO- "https://cmake.org/files/v3.21/cmake-$CmakeV-linux-x86_64.tar.gz" | \
